@@ -13,7 +13,7 @@ for (letter = 'a'; letter <= 'z'; letter++)
 {
 if (letter == 'q' || letter == 'e')
 {
-break;
+continue;
 }
 else
 {
