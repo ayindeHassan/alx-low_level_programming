@@ -9,7 +9,7 @@
 
 int _isupper(int let)
 {
-if (let >= '65' && let <= '90')
+if (let >= 65 && let <= 90)
 {
 	return (1);
 }
