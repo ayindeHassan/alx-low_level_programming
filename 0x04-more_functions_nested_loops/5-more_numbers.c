@@ -24,7 +24,7 @@ while (j <= 9)
 		}
 
 		_putchar((i % 10) + '0');
-		i++
+		i++;
 	}
 
 	_putchar('\n');
