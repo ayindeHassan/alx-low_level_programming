@@ -3,6 +3,6 @@
 
 #include <stdio.h>
 
-void positive_negative(int i);
+positive_negative(int i);
 
 #endif /* MAIN_H */
