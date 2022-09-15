@@ -20,6 +20,6 @@ else
 		i++;
 	}
 
-	_putcahr('\n');
+	_putchar('\n');
 }
 }
