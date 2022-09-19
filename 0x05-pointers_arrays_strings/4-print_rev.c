@@ -18,7 +18,7 @@ counter++;
 }
 ldigit = counter - 1;
 
-while (l >= 0)
+while (ldigit >= 0)
 {
 _putchar(s[ldigit]);
 ldigit--;
