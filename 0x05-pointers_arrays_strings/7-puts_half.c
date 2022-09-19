@@ -15,7 +15,9 @@ while (str[counter] != '\0')
 {
 	counter++;
 }
-pos = counter / 2;
+
+pos = counter /= 2;
+
 while (str[pos] != '\0')
 {
 	_putchar(str[pos]);
