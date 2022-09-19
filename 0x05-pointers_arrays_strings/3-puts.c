@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * print_rev - function that print the reverse of the original string
- * @s: string parameter
+ * _puts - fnction that immitate the puts functio
+ * @str: string parameter
  */
 
-void print_rev(char *s)
+void _puts(char *str)
 {
-	while (*s)
-		_putchar(*s++);
+	while (*str)
+		_putchar(*str++);
 
 	_putchar('\n');
 }
