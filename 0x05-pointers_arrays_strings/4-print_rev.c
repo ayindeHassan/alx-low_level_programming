@@ -8,15 +8,20 @@
 
 void print_rev(char *s)
 {
-int len = 0;
+int counter = 0;
 
-int index;
+int ldigit;
 
-while (s[index++])
-	len++;
+while (s[counter] != '\0')
+{
+counter++;
+}
+ldigit = counter - 1;
 
-for (index = len - 1; index >= 0; index--)
-	_putchar(s[index]);
-
+while (l >= 0)
+{
+_putchar(s[ldigit]);
+ldigit--;
+}
 _putchar('\n');
 }
