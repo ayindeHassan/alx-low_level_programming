@@ -16,5 +16,5 @@ while (str[count] != '\0')
 
 	count++;
 }
-_putchar('/n');
+_putchar('\n');
 }
