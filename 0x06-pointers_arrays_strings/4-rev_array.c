@@ -9,12 +9,18 @@
 void print_array(int *a, int n)
 {
 	int tmp;
-	int index;
+	int i;
+	int d;
 
-	for (index = n - 1; index >= n / 2; index--)
+	d = n - 1;
+	i = 0;
+
+	while (i < d)
 	{
-		tmp = a[n - 1 - index];
-		a[n - 1 - index] = a[index];
-		a[index] = tmp;
+		temp = a[i];
+		a[i] = a[d];
+		a[d] = temp;
+		i++;
+		d--;
 	}
 }
