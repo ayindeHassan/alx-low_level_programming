@@ -16,9 +16,7 @@ while (n[i] != '\0')
 {
 	if (n[i] >= 97 && n[i] <= 122)
 	{
-		char let;
-
-		let = n[i];
+		n[i] -= 32;
 	}
 	i++;
 }

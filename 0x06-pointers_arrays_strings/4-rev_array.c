@@ -6,7 +6,7 @@
  * @n: numbers of content in an array
  */
 
-void print_array(int *a, int n)
+void reverse_array(int *a, int n)
 {
 	int tmp;
 	int i;
@@ -17,9 +17,9 @@ void print_array(int *a, int n)
 
 	while (i < d)
 	{
-		temp = a[i];
+		tmp = a[i];
 		a[i] = a[d];
-		a[d] = temp;
+		a[d] = tmp;
 		i++;
 		d--;
 	}
