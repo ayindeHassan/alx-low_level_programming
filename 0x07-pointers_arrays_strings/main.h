@@ -1,1 +1,7 @@
-VimCrypt~03!-@#!ª«Uva•wS@~êû+:'ßh:"úeîµ†hÀCY¼1¨ÚËºuå} ”.De,ƒE›é—«Î•$“«1ÉA9mú¤ó¤Ú_OQNJ,ì[÷ØÒø{f¤c§	KðesT™<oë¨ùËÝç’Hª‚âKb)è×Š02^lM'…±oeØx¢Of)ëUE‘6”W aO¸ÄJê—P
+#ifndef MAIN_H
+#define MAIN_H
+
+char *_memset(char *s, char b, unsigned int n);
+char *_memcpy(char *dest, char *src, unsigned int n);
+
+#endif /* MAIN_H */
