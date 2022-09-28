@@ -31,4 +31,4 @@ int is_prime_number(int n)
 	}
 	else
 		return (prime_check(2, n));
-}	
+}
