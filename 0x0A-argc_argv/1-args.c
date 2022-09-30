@@ -7,22 +7,9 @@
  * Return: Always 0
  */
 
-int main(int argc, char *argv[])
+int main(int argc, char *argv[] __attribute__((unused)))
 {
-	int sum = 0;
-
-	if (argc > 1)
-	{
-		int i = 0;
-
-		for (i = 1; i < argc; i++)
-		{
-			sum++;
-		}
-		printf("%d\n", sum);
-	}
-	else
-		printf("0\n");
+	printf("%d\n", argc - 1);
 
 	return (0);
 }
