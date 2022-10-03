@@ -72,5 +72,4 @@ char **strtow(char *str)
 			i++;
 	}
 	return (w);
-    
 }
