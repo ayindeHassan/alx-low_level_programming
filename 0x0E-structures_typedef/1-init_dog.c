@@ -5,7 +5,7 @@
  * @name: name
  * @d: pointer to structure
  * @age: age
- * @ownar: owner
+ * @owner: owner
  * Return: nothing
  */
 
