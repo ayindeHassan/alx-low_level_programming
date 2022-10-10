@@ -1,0 +1,18 @@
+#ifndef _DOG_H_
+#define _DOG_H_
+#include <stdio.h>
+
+/**
+ * struct dog - Define a new type struct dog with the following elements:
+ * @name: name
+ * @age: age
+ * @owner: owner
+ * Retuurn: 0
+ */
+
+typedef struct dog
+{
+	char *name;
+	float age;
+	char *owner;
+} dog_t;
